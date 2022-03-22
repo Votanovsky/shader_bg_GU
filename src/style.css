@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: "Monterchi"; 
+}
+@font-face {
+    font-family: "Monterchi"; 
+    src: url("Monterchi-Light.ttf") format("truetype"); 
+}
+.webgl
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+}
+.bg-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+.circle {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.wrapper-left {
+    position: relative;
+    width: 50%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    height: 100%;
+}
+
+.titles {
+    
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: #F45626;
+    text-align: center;
+    font-weight: 300;
+}
+.h2_t {
+    width: 100%;
+    font-size: 64px;
+    text-transform: uppercase;
+    transform: translateX(-60px);
+}
+.h2_b {
+    width: 100%;
+    font-size: 64px;
+    text-transform: uppercase;
+    transform: translateX(60px);
+    transform: translateY(-25px);
+}
+.btn_view {
+    margin-top: auto;
+    
+    outline: none;
+    border: none;
+
+}
+.btn--view {
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin: auto 30px 30px auto;
+    
+}
+.btn--view span {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: "Monterchi"; 
+    margin-right: 16px;
+    color: #F45626;
+}
+.btn--view div {
+    width: 80px;
+    height: 80px;
+    background: #F45626;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    height: 100vh;
+    background: #fff;
+    width: 100%;
+}
